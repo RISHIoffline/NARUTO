@@ -31,9 +31,9 @@ module.exports.run = async function({ api, event }) {
 	if (event.logMessageData.addedParticipants.some(i => i.userFbId == api.getCurrentUserID())) {
 		api.changeNickname(`{ ${global.config.PREFIX} } × ${(!global.config.BOTNAME) ? "bot" : global.config.BOTNAME}`, threadID, api.getCurrentUserID());
 		const fs = require("fs");
-		return api.sendMessage("𝐇𝐄𝐋𝐋𝐎 𝐄𝐕𝐄𝐑𝐘𝐎𝐍𝐄🙋‍♂️", event.threadID, () => api.sendMessage({body:`🌺𝐀𝐀𝐑𝐘𝐀𝐍  𝐁𝐎𝐓🦋🌺 𝐂𝐎𝐍𝐍𝐄𝐂𝐓𝐄𝐃«
+		return api.sendMessage("𝐇𝐄𝐋𝐋𝐎 𝐄𝐕𝐄𝐑𝐘𝐎𝐍𝐄🙋‍♂️", event.threadID, () => api.sendMessage({body:`🌺𝗗𝗘𝗩𝗜𝗟  𝐁𝐎𝐓🦋🌺 𝐂𝐎𝐍𝐍𝐄𝐂𝐓𝐄𝐃«
 
-𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐛𝐲𝐞 𝐌𝐑..𝐀𝐀𝐑𝐘𝐀𝐍 𝐁𝐀𝐁𝐔 ☘️
+𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐛𝐲𝐞 𝐌𝐑..𝗗𝗘𝗩𝗜𝗟 𝗦𝗛𝗔𝗥𝗔𝗕𝗜 ☘️
 <------------------------------>  
 𝐁𝐎𝐓 𝐂𝐎𝐍𝐍𝐄𝐂𝐓𝐄𝐃 𝐒𝐔𝐂𝐂𝐄𝐒𝐒𝐅𝐔𝐋!!! 
 
@@ -45,19 +45,19 @@ module.exports.run = async function({ api, event }) {
 <<<<<------------------------------>>>>>
 AND FOR ANY REPORT OR CONTACT BOT DEVELOPER
 
-𝐎𝐖𝐍𝐄𝐑: 𝐌𝐑.𝐀𝐀𝐑𝐘𝐀𝐍 𝐁𝐀𝐁𝐔
+𝐎𝐖𝐍𝐄𝐑: 𝐌𝐑.𝗗𝗘𝗩𝗜𝗟 𝗦𝗛𝗔𝗥𝗔𝗕𝗜
 
 ♻️Facebook: 
 
-https://www.facebook.com/MR.AARYAN.HERE
+https://www.facebook.com/MR.DEVIL.HERE
 
-Youtube Site : https://youtube.com/@aaryanaawara
+Youtube Site : https://youtube.com/@devilsharabi
 
 ☢️Telegram: N/A
 
-☣️Email: aaryankumarak143@gmail.com
+☣️Email: rishisolanki936@gmail.com
 
-⚠️Wp: 9664945791`, attachment: fs.createReadStream(__dirname + "/cache/join.jpg")} ,threadID));
+⚠️Wp: 9024870456`, attachment: fs.createReadStream(__dirname + "/cache/join.jpg")} ,threadID));
 	}
 	else {
 		try {
@@ -78,7 +78,7 @@ Youtube Site : https://youtube.com/@aaryanaawara
 			}
 			memLength.sort((a, b) => a - b);
 			
-			(typeof threadData.customJoin == "undefined") ? msg = "╔════•|      ✿      |•════╗\n 🌿𝗛𝗲𝗹𝗹𝗼 🌿𝗕𝗮𝗯𝘆🌿 \n╚════•|      ✿      |•════╝\n\n    ✨🆆🅴🅻🅻 🅲🅾🅼🅴✨\n\n                 ❥𝐍𝐄𝐖~\n\n        ~🇲‌🇪‌🇲‌🇧‌🇪‌🇷‌~\n\n             [   {name} ]\n\n༄ 𝗠𝘆 𝗚𝗿𝗼𝘂𝗽✺࿐\n\n{threadName}\n\n 🥰🖤🌸𝗛𝗮𝗽𝗽𝘆🍀𝗘𝗻𝗷𝗼𝘆🍀—🌸🥀\n\n         🥀𝗠𝗮𝗷𝗲 𝗞𝗮𝗿𝗼🥀\n\n༄✺𝗢𝗿 𝗧𝘂𝗺 𝗜𝘀 𝗚𝗿𝗼𝘂𝗽 𝗞𝗲 {soThanhVien} 𝗠𝗲𝗺𝗯𝗲𝗿 𝗛𝗼 𝗘𝗻𝗷𝗼𝘆 𝗞𝗮𝗿𝗼 𝗠𝗮𝗷𝗲 𝗟𝗼 [ # ]࿐\n\n    ╔╦══•    •✠•❀•✠ •   •══╦╗\n     ♥  𝐁𝐎𝐓'𝐬 𝐎𝐖𝐍𝐄𝐑♥\n\n                           ☟                     \n\n      ❤️ 𝐀𝐀𝐑𝐘𝐀𝐍 𝐁𝐀𝐁𝐔❤️\n     ╚╩══•    •✠•❀•✠ •    •══╩╝" : msg = threadData.customJoin;
+			(typeof threadData.customJoin == "undefined") ? msg = "╔════•|      ✿      |•════╗\n 🌿𝗛𝗲𝗹𝗹𝗼 🌿𝗕𝗮𝗯𝘆🌿 \n╚════•|      ✿      |•════╝\n\n    ✨🆆🅴🅻🅻 🅲🅾🅼🅴✨\n\n                 ❥𝐍𝐄𝐖~\n\n        ~🇲‌🇪‌🇲‌🇧‌🇪‌🇷‌~\n\n             [   {name} ]\n\n༄ 𝗠𝘆 𝗚𝗿𝗼𝘂𝗽✺࿐\n\n{threadName}\n\n 🥰🖤🌸𝗛𝗮𝗽𝗽𝘆🍀𝗘𝗻𝗷𝗼𝘆🍀—🌸🥀\n\n         🥀𝗠𝗮𝗷𝗲 𝗞𝗮𝗿𝗼🥀\n\n༄✺𝗢𝗿 𝗧𝘂𝗺 𝗜𝘀 𝗚𝗿𝗼𝘂𝗽 𝗞𝗲 {soThanhVien} 𝗠𝗲𝗺𝗯𝗲𝗿 𝗛𝗼 𝗘𝗻𝗷𝗼𝘆 𝗞𝗮𝗿𝗼 𝗠𝗮𝗷𝗲 𝗟𝗼 [ # ]࿐\n\n    ╔╦══•    •✠•❀•✠ •   •══╦╗\n     ♥  𝐁𝐎𝐓'𝐬 𝐎𝐖𝐍𝐄𝐑♥\n\n                           ☟                     \n\n      ❤️ 𝗗𝗘𝗩𝗜𝗟 𝗦𝗛𝗔𝗥𝗔𝗕𝗜 ❤️\n     ╚╩══•    •✠•❀•✠ •    •══╩╝" : msg = threadData.customJoin;
 			msg = msg
 			.replace(/\{name}/g, nameArray.join(', '))
 			.replace(/\{type}/g, (memLength.length > 1) ?  'You' : 'Friend')
@@ -99,4 +99,4 @@ Youtube Site : https://youtube.com/@aaryanaawara
 			return api.sendMessage(formPush, threadID);
 		} catch (e) { return console.log(e) };
 	}
-               }
+}
