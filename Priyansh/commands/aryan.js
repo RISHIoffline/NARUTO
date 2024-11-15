@@ -1,6 +1,6 @@
 const fs = require("fs");
 module.exports.config = {
-	name: "Aryan",
+	name: "DEVIL",
     version: "1.0.1",
 	hasPermssion: 2,
 	credits: "VanHung - Fixed by LTD", 
@@ -12,7 +12,7 @@ module.exports.config = {
 
 module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
 	var { threadID, messageID } = event;
-	if (event.body.indexOf("ARYAN")==0 || event.body.indexOf("Aryan")==0 || event.body.indexOf("Aaryan")==0 || event.body.indexOf("@Əɱɱ'ʌ Aʌʀƴʌŋ Ȏʬ'ɭɭɘx")==0) {
+	if (event.body.indexOf("DEVIL")==0 || event.body.indexOf("DEVIL")==0 || event.body.indexOf("DEVIL")==0 || event.body.indexOf("@Əɱɱ'ʌ DEVIL Ȏʬ'ɭɭɘx")==0) {
 		var msg = {
 				body: "हेलो बेबी मुझे डेविल शराबी बनाया है। 🙂🌍🌸",
 			}
